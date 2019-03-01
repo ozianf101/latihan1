@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/hallo', function (){
+    return "hallo lur";
+});
+
+Route::get('/jawab', 'AnswerController@jawab');
