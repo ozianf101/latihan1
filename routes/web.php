@@ -19,4 +19,6 @@ Route::get('/hallo', function (){
     return "hallo lur";
 });
 
+Route::get('/contents','ContentsController@index');
+
 Route::get('/jawab', 'AnswerController@jawab');
